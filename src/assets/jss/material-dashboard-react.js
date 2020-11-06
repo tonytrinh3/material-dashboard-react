@@ -67,7 +67,8 @@ const container = {
 const defaultFont = {
   fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
   fontWeight: "300",
-  lineHeight: "1.5em"
+  lineHeight: "1.5em",
+  fontSize:"3000px"
 };
 
 const primaryColor = ["#9c27b0", "#ab47bc", "#8e24aa", "#af2cc5"];

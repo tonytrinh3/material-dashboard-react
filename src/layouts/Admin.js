@@ -109,7 +109,9 @@ export default function Admin({ ...rest }) {
 
 
   return (
-    <div className={classes.wrapper}>
+    // i think wrpper is just a classname
+
+    <div className={classes.wrapper}> 
       
       {/* this is sidebar where you see in main */}
       <Sidebar
@@ -135,6 +137,7 @@ export default function Admin({ ...rest }) {
         {/* this is all the stuff in the middle */}
         {getRoute() ? (
           <div className={classes.content}>
+          {/* i think the contain holds all of the thing in the middle */}
             <div className={classes.container}>{switchRoutes}</div>
           </div>
         ) : (
